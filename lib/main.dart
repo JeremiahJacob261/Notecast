@@ -34,7 +34,9 @@ class _MyAppState extends State<MyApp> {
             appBar: AppBar(title: Text('NoteCast'), actions: <Widget>[
               IconButton(onPressed: null, tooltip: 'homie', icon: Icon(Icons.arrow_circle_down)),
             ]),
-            drawer: Drawer(child: Text('drawer')),
+            drawer: Drawer(child:Column(children:[
+                Text('drawer column'),
+            ])),
             body: Column(children: [
               Text('come on'),
               TextField(
