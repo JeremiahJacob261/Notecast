@@ -36,14 +36,15 @@ class _MyAppState extends State<MyApp> {
             ]),
             drawer: Drawer(
                 child: Column(children: [
-              Text('drawer column'),
-              Icon(
-                Icons.favorite,
-                color: Colors.pink,
-                size: 24.0,
-                semanticLabel: 'Text to announce in accessibility modes',
-              ),
-            ])),
+                  Text('drawer column'),
+                  Icon(
+                    Icons.favorite,
+                    color: Colors.pink,
+                    size: 24.0,
+                    semanticLabel: 'Text to announce in accessibility modes',
+                  ),
+                ]),
+                backgroundColor: Colors.lightBlueAccent),
             body: Column(children: [
               Text('come on'),
               TextField(
